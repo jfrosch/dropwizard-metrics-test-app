@@ -2,9 +2,7 @@ package demo.dropwizard
 
 import grails.gorm.transactions.Transactional
 import grails.plugin.dropwizard.metrics.meters.Metered
-import groovy.util.logging.Slf4j
 
-@Slf4j
 @Transactional(readOnly = true)
 class SimpleService {
 
