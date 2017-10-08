@@ -46,7 +46,7 @@ dependencies {
     compile "org.hibernate:hibernate-core:5.1.5.Final"
     compile "org.grails.plugins:views-json"
     compile "org.grails.plugins:views-json-templates"
-    compile "org.grails.plugins:dropwizard-metrics:1.0.0.M3"
+    compile "org.grails.plugins:dropwizard-metrics:1.0.0.M3+"
     compile "org.grails.plugins:dropwizard-metrics-graphite:1.0.0.M1"
     console "org.grails:grails-console"
     profile "org.grails.profiles:rest-api"

@@ -1,4 +1,7 @@
-// Place your Spring DSL code here
+package spring
+
+import demo.dropwizard.GoodbyeFilter
+
 beans = {
     goodbyeFilter(GoodbyeFilter)
 }

@@ -65,15 +65,15 @@ grails:
         encoding: UTF-8
     dropwizard:
         metrics:
-            reporterFrequency: 0     # Five seconds
+            reporterFrequency: 5     # Five seconds
             console-reporter.active: false
             csv-reporter:
                 active: false
                 output-dir: /tmp
             graphite-reporter:
-                active: false
-                graphite-metric-prefix: rgare.com
-                metric-filter: 'goodbyeFilter'
+                active: true
+                graphite-metric-prefix: sales.acme.com
+                graphite-metric-filter: 'goodbyeFilter'
             slf4j-reporter.active: true
 
 
